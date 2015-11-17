@@ -62,6 +62,13 @@ Efficiency of the transmissions is an important acceptance criteria, data volume
 * Efficient use of storage on the device, when events, messages, etc. are queued
 * Efficient use of network connectivity: including transmission units (acknowledged as discrete items so they don’t need to be retransmitted).
 
+##Performance
+There are various performance considerations and therefore tests that may be relevant. These include:
+
+* Added latency when the app starts, particularly if the libraries are initialised on the main UI thread.
+* CPU, RAM and local storage (for instance if mobile analytics events are buffered to the file system, including a local database).
+* Use of the network when transmitting data between the library and its upstream data collection server.
+
 ##Security
 
 * Confidentiality
