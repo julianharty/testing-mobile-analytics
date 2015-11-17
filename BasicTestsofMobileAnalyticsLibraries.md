@@ -1,6 +1,8 @@
 ﻿#Basic Tests of Mobile Analytics Libraries
 Author: Julian Harty
+
 Started: 16th Aug 2015
+
 Status: work-in-progress, feedback is welcome as issues on this github repository.
 
 ##Context
@@ -32,7 +34,6 @@ Are records aligned to a consistent timezone e.g. UTC, Pacific Time, etc? How ar
 
 * Crossing dateline
 * Crossing several timezones, including flip-flop changes, while the app is a) in-use b) queuing transmissions.
-
 
 And BTW: how much would variations affect the validity of tests for the app (rather than for the M.A. library) derived from the flawed records.
 
@@ -71,5 +72,6 @@ Efficiency of the transmissions is an important acceptance criteria, data volume
 * SSL pinning
 * Use of encryption.
 * Faking information (probably quite easy to do). Could someone send fake data on behalf of another app? Digital signing of data?
-________________
-[1] TODO add correct permission
+
+##Further reading
+* [SafeDK](http://www.safedk.com/) provide products to help manage third-party libraries in a mobile app. They also provide perspectives on how to assess and measure various characteristics, or behaviours, of SDKs, including mobile analytics libraries.
