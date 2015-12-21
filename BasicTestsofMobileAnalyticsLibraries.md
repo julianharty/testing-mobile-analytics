@@ -82,3 +82,4 @@ There are various performance considerations and therefore tests that may be rel
 
 ##Further reading
 * [SafeDK](http://www.safedk.com/) provide products to help manage third-party libraries in a mobile app. They also provide perspectives on how to assess and measure various characteristics, or behaviours, of SDKs, including mobile analytics libraries.
+* [Twitter's Answers](https://answers.io/) service includes various interesting blog articles, particularly relevant is the following https://answers.io/blog/handling-five-billion-sessions-a-day-in-real-time which describes how they designed and implemented the system to cope with large volumes of sessions.
